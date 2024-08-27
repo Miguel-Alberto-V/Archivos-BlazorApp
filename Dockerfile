@@ -10,7 +10,7 @@ RUN dotnet new blazor -o BlazorApp
 COPY Counter.razor BlazorApp/Components/Pages/Counter.razor
 COPY Home.razor BlazorApp/Components/Pages/Home.razor
 COPY NavMenu.razor BlazorApp/Layout/NavMenu.razor
-COPY TaskList.razor BlazorApp/Components/Pages/
+COPY Todo.razor BlazorApp/Components/Pages/
 COPY TodoItem.cs BlazorApp/
 
 WORKDIR /app/BlazorApp
