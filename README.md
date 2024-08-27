@@ -4,8 +4,23 @@ Este proyecto es una aplicación Blazor que se puede construir y ejecutar utiliz
 
 ## Estructura del Proyecto
 
-.gitignore Counter.razor Dockerfile Home.razor NavMenu.razor script.sh Todo.razor TodoItem.cs
+- `Dockerfile`  
+  Archivo de configuración para la creación de la imagen Docker.
 
+- `Counter.razor`  
+  Componente Blazor para la página de contador.
+
+- `Home.razor`  
+  Componente Blazor para la página principal.
+
+- `NavMenu.razor`  
+  Componente Blazor para la barra de navegación.
+
+- `Todo.razor`  
+  Componente Blazor para la página de tareas.
+
+- `TodoItem.cs`  
+  Modelo de datos para los elementos de la lista de tareas.
 
 ## Archivos y su Funcionalidad
 
