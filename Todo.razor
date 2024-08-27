@@ -1,7 +1,7 @@
 @page "/todo"
 @rendermode InteractiveServer
 
-<h3>Todo (@todos.Count(todo => !todo.IsDone))</h3>
+<h3>Tareas Pendientes (@todos.Count(todo => !todo.IsDone))</h3>
 
 <ul>
     @foreach (var todo in todos)
@@ -14,7 +14,7 @@
 </ul> 
 
 <input @bind="newTodo" />
-<button @onclick="AddTodo">Add todo</button>
+<button @onclick="AddTodo">Agregar Tarea</button>
 
 @code {
     private List<TodoItem> todos = new();
