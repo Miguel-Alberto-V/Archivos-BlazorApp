@@ -9,7 +9,7 @@ RUN dotnet new blazor -o BlazorApp
 # Copiar las paginas modificadas
 COPY Counter.razor BlazorApp/Components/Pages/Counter.razor
 COPY Home.razor BlazorApp/Components/Pages/Home.razor
-COPY NavMenu.razor BlazorApp/Layout/NavMenu.razor
+COPY NavMenu.razor BlazorApp/Components/Layout/NavMenu.razor
 COPY Todo.razor BlazorApp/Components/Pages/
 COPY TodoItem.cs BlazorApp/
 
